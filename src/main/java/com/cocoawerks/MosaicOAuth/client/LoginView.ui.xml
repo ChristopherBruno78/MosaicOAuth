@@ -1,0 +1,13 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:m='urn:import:com.cocoawerks.gwt.mosaic.client.ui'
+    >
+
+    <ui:style src="style.css" />
+    <g:FlowPanel styleName="{style.panel}">
+        <g:HTML>
+            <h1>Login With</h1>
+        </g:HTML>
+        <m:Button text="Google" />
+    </g:FlowPanel>
+</ui:UiBinder>
